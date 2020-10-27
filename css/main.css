@@ -1,4 +1,5 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 html {
     color: #222;
@@ -82,11 +83,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
@@ -101,7 +97,7 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #e47226;
 }
 
 .footer-container,
@@ -117,6 +113,7 @@ body {
 
 .title {
     color: white;
+    
 }
 
 /* ==============
@@ -140,6 +137,8 @@ nav a {
 
     color: white;
     background: #e44d26;
+    
+
 }
 
 nav a:hover,
@@ -149,7 +148,9 @@ nav a:visited {
 
 nav a:hover {
     text-decoration: underline;
+    
 }
+
 
 /* ==============
     MOBILE: Main
@@ -173,6 +174,7 @@ nav a:hover {
     padding: 20px 0;
 }
 
+
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -180,24 +182,6 @@ nav a:hover {
 .ie7 .title {
     padding-top: 20px;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Media Queries
@@ -256,6 +240,7 @@ nav a:hover {
    ============ */
 
     .title {
+        
         float: left;
     }
 
@@ -263,20 +248,27 @@ nav a:hover {
         float: right;
         width: 38%;
     }
+    a {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+
 
 /* ============
     WIDE: Main
    ============ */
 
     .main article {
-        float: left;
-        width: 57%;
+        float: right;
+        width: 67%;
     }
 
     .main aside {
-        float: right;
-        width: 28%;
+        float: left;
+        width: 20%;
     }
+    
 }
 
 @media only screen and (min-width: 1140px) {
@@ -286,7 +278,7 @@ nav a:hover {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: 1200px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
