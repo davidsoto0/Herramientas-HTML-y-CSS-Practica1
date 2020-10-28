@@ -166,7 +166,7 @@ nav a:hover {
 
 .main aside {
     color: white;
-    padding: 0px 5% 10px;
+    padding: 0px 2% 10px;
 }
 
 .footer-container footer {
@@ -174,6 +174,21 @@ nav a:hover {
     padding: 20px 0;
 }
 
+body > div.header-container > header > h1 > a {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+body > div.header-container > header > nav > ul > li > a{
+    color: black;
+}
+
+body > div.main-container > div > aside > li > a{
+    font-family:  cursive;
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+}
 
 /* ===============
     ALL: IE Fixes
@@ -199,6 +214,8 @@ nav a:hover {
         margin: 0 1.7%;
         padding: 25px 2%;
         margin-bottom: 0;
+
+        
     }
 
     nav li:first-child a {
@@ -248,9 +265,33 @@ nav a:hover {
         float: right;
         width: 38%;
     }
-    a {
+
+    body > div.main-container > div > article{
+        margin: 80px;
+    }
+
+    body > div.header-container > header > h1 > a {
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-decoration: none;
+        color: black;
+    }
+
+    body > div.header-container{
+        position: fixed;
+        width: 100%;
+    }
+
+    body > div.main-container > div > aside{
+        position: fixed;
+        float: left;
+        width: 15%;
+        top: 120px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+
+    body > div.header-container > header > nav > ul > li > a{
         color: black;
     }
 
@@ -264,10 +305,6 @@ nav a:hover {
         width: 67%;
     }
 
-    .main aside {
-        float: left;
-        width: 20%;
-    }
     
 }
 
