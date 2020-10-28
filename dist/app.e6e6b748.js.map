@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/app.js"],"names":["app","UserController","UserService","UserView"],"mappings":";AAAA,IAAMA,EAAM,IAAIC,eAAe,IAAIC,YAAe,IAAIC","file":"app.e6e6b748.js","sourceRoot":"..","sourcesContent":["const app = new UserController(new UserService(), new UserView());\n"]}
