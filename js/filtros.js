@@ -94,7 +94,7 @@ botonBuscar.addEventListener("click", event => {
             libro.style.display = '';
         });
     } else {
-        pl.textContent = 'Lo siento, no se ha eencontrado ningún libro con esos filtros :(';
+        pl.textContent = 'Lo siento, no se ha encontrado ningún libro con esos filtros :(';
     }
     event.preventDefault();
 });
@@ -104,7 +104,7 @@ botonClear.addEventListener("click", event => {
     input.forEach(element => {
         element.value = '';
     });
-    pl.textContent = '¿Quiere buscar algún libro en concreto? Filtra por su título, autro o temática';
+    pl.textContent = '¿Quiere buscar algún libro en concreto? Filtra por su título, autor o temática';
     event.preventDefault();
 
 });
